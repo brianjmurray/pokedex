@@ -21,6 +21,7 @@
 		371CAE2F1EA1428400FE1BDF /* PokemonSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 371CAE2E1EA1428400FE1BDF /* PokemonSolid.ttf */; };
 		371CAE311EA1439E00FE1BDF /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 371CAE301EA1439E00FE1BDF /* music.mp3 */; };
 		371CAE331EA14E7D00FE1BDF /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371CAE321EA14E7D00FE1BDF /* PokemonDetailVC.swift */; };
+		373EEFCF1EA2CE3C00CC31CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EEFCE1EA2CE3C00CC31CB /* Constants.swift */; };
 		4E0810390E8A9289D6AD8006 /* Pods_PokedexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F952F2D429F9722B5A6A8490 /* Pods_PokedexUITests.framework */; };
 		65CAC92EC7F2EDCE77E33DCA /* Pods_PokedexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3461DD15DB7AA34E40579056 /* Pods_PokedexTests.framework */; };
 		CCF67643CB3CBFEF8C86336D /* Pods_Pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B0834F8F205A0A4F853A54 /* Pods_Pokedex.framework */; };
@@ -67,6 +68,7 @@
 		371CAE2E1EA1428400FE1BDF /* PokemonSolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonSolid.ttf; sourceTree = "<group>"; };
 		371CAE301EA1439E00FE1BDF /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		371CAE321EA14E7D00FE1BDF /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		373EEFCE1EA2CE3C00CC31CB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4233407106E3620271C92A36 /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex/Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 		47249D25F8E364FC6B5D1C72 /* Pods-PokedexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokedexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokedexUITests/Pods-PokedexUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B8D88B32B9EEA862BF86CD1 /* Pods-Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex/Pods-Pokedex.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			children = (
 				371CAE281EA1257D00FE1BDF /* Pokemon.swift */,
 				371CAE2C1EA13BB400FE1BDF /* csv.swift */,
+				373EEFCE1EA2CE3C00CC31CB /* Constants.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				371CADF71EA1218C00FE1BDF /* PokedexVC.swift in Sources */,
 				371CADF51EA1218C00FE1BDF /* AppDelegate.swift in Sources */,
 				371CAE331EA14E7D00FE1BDF /* PokemonDetailVC.swift in Sources */,
+				373EEFCF1EA2CE3C00CC31CB /* Constants.swift in Sources */,
 				371CAE291EA1257D00FE1BDF /* Pokemon.swift in Sources */,
 				371CAE2D1EA13BB400FE1BDF /* csv.swift in Sources */,
 			);
@@ -772,6 +776,7 @@
 				371CAE1B1EA1218C00FE1BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371CAE1C1EA1218C00FE1BDF /* Build configuration list for PBXNativeTarget "PokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -780,6 +785,7 @@
 				371CAE1E1EA1218C00FE1BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371CAE1F1EA1218C00FE1BDF /* Build configuration list for PBXNativeTarget "PokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -788,6 +794,7 @@
 				371CAE211EA1218C00FE1BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
